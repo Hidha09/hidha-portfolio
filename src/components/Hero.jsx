@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, FileDown, Sparkles, MapPin, CheckCircle2, ChevronRight, Brain, ShieldCheck } from 'lucide-react';
+import { ArrowDown, FileDown, Sparkles, MapPin, CheckCircle2, ChevronRight, Brain } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export default function Hero({ onOpenCV }) {
@@ -82,7 +82,7 @@ export default function Hero({ onOpenCV }) {
           </div>
 
           {/* Highlights / Quick Credibility Strip */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-6 border-t border-charcoal-200/70">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-6 border-t border-charcoal-200/70">
             <div className="flex items-start gap-2.5 p-3 rounded-xl bg-surface/60 border border-charcoal-200/50">
               <div className="p-1.5 rounded-lg bg-lavender-50 text-lavender-600 mt-0.5">
                 <Brain className="w-4 h-4" />
@@ -94,16 +94,6 @@ export default function Hero({ onOpenCV }) {
             </div>
 
             <div className="flex items-start gap-2.5 p-3 rounded-xl bg-surface/60 border border-charcoal-200/50">
-              <div className="p-1.5 rounded-lg bg-accentBlue-50 text-accentBlue-600 mt-0.5">
-                <ShieldCheck className="w-4 h-4" />
-              </div>
-              <div>
-                <div className="text-xs font-bold text-charcoal-900">97.39% Accuracy</div>
-                <div className="text-[11px] text-charcoal-500 font-medium">Fraud Detection Eval</div>
-              </div>
-            </div>
-
-            <div className="col-span-2 sm:col-span-1 flex items-start gap-2.5 p-3 rounded-xl bg-surface/60 border border-charcoal-200/50">
               <div className="p-1.5 rounded-lg bg-lavender-50 text-lavender-600 mt-0.5">
                 <MapPin className="w-4 h-4" />
               </div>

@@ -15,7 +15,7 @@ export const personalInfo = {
   // Contact & Social Links
   // Note: Placeholders are provided for user customization without inventing fake external URLs
   contact: {
-    email: "hidha.contact@example.com", // Replace with your personal email address
+    email: "subairhidha@gmail.com",
     github: "https://github.com", // Replace with your GitHub profile URL e.g. https://github.com/your-username
     linkedin: "https://linkedin.com", // Replace with your LinkedIn profile URL e.g. https://linkedin.com/in/your-username
     locationDisplay: "Dubai / Abu Dhabi, UAE",

@@ -80,13 +80,12 @@ export default function CVModal({ isOpen, onClose }) {
             </a>
           </div>
 
-          {/* Quick Notice for Hidha */}
           <div className="p-3.5 rounded-xl bg-surfaceMuted border border-charcoal-200/80 text-[11px] text-charcoal-500 leading-relaxed">
             <div className="font-bold text-charcoal-700 mb-1 flex items-center gap-1.5">
               <CheckCircle2 className="w-3.5 h-3.5 text-lavender-600" />
-              <span>Ready for Your Custom CV</span>
+              <span>Official Document</span>
             </div>
-            To update with your latest CV, place your PDF document inside the <code className="px-1.5 py-0.5 rounded bg-charcoal-200/60 font-mono text-charcoal-800">public/</code> directory named <code className="px-1.5 py-0.5 rounded bg-charcoal-200/60 font-mono text-charcoal-800">cv.pdf</code>. It will automatically download on one click.
+            Download or preview the complete curriculum vitae in PDF format.
           </div>
         </div>
 
